@@ -1,5 +1,9 @@
 [
     {
+        "repository": "android_vendor_samsung_t0ltecdma",
+        "target_path": "vendor/samsung/t0ltecdma"
+    },
+    {
         "repository": "android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common"
     },
