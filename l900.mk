@@ -21,10 +21,6 @@ TARGET_VOICE_TECH := cdma
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Init files
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/fstab.smdk4x12:root/fstab.smdk4x12
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
